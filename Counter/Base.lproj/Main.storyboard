@@ -36,7 +36,7 @@
                                 <rect key="frame" x="252" y="429" width="114" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Сброс"/>
+                                <buttonConfiguration key="configuration" style="gray" image="trash" catalog="system" title=""/>
                                 <connections>
                                     <action selector="buttonResetDidAppear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0nY-Ey-3OY"/>
                                 </connections>
@@ -76,6 +76,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="trash" catalog="system" width="121" height="128"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
