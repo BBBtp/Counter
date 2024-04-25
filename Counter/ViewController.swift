@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         numLabel.text = "Значение счетчика: \(num)"
         historyTextView.text = "История изменений\n"
+        checkButtonPlus.backgroundColor = .red
+        checkButtonMinus.backgroundColor = .blue
+        
     }
     @IBAction func buttonDidAppear(_ sender: Any) {
         num += 1
